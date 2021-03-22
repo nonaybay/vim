@@ -26,3 +26,12 @@ set noswapfile
 set fileformats=unix,dos,mac
 set showcmd
 set shell=/bin/sh
+
+" more visual settings
+set ruler
+set number
+set background=dark
+set t_Co=256
+set scrolloff=3
+set laststatus=2
+set statusline=%F%m%r%h%w%=(%{&ff}/%Y)\ (line\ %l\/%L,\ col\ %c)\
