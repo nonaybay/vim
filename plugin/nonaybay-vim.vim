@@ -14,3 +14,15 @@ set shiftwidth=2
 set expandtab
 set autoindent
 set smartindent
+
+" mouse
+set mouse=a
+
+" no swap
+set nobackup
+set noswapfile
+
+" fileformat
+set fileformats=unix,dos,mac
+set showcmd
+set shell=/bin/sh
