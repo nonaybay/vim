@@ -34,4 +34,7 @@ set background=dark
 set t_Co=256
 set scrolloff=3
 set laststatus=2
+set title
+set titleold="Terminal"
+set titlestring=%F
 set statusline=%F%m%r%h%w%=(%{&ff}/%Y)\ (line\ %l\/%L,\ col\ %c)\
